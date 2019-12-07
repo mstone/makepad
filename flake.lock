@@ -1,0 +1,23 @@
+{
+    "inputs": {
+        "import-cargo": {
+            "inputs": {},
+            "narHash": "sha256-wIXWOpX9rRjK5NDsL6WzuuBJl2R0kUCnlpZUrASykSc=",
+            "originalUrl": "git+https://github.com/edolstra/import-cargo",
+            "url": "git+https://github.com/edolstra/import-cargo?ref=master&rev=8abf7b3a8cbe1c8a885391f826357a74d382a422"
+        },
+        "moz_overlay_src": {
+            "inputs": {},
+            "narHash": "sha256-T4ZjBd1HwVppQjKccuWa0w24IRNJdIo0YpHptljQnEU=",
+            "originalUrl": "git+https://github.com/mozilla/nixpkgs-mozilla",
+            "url": "git+https://github.com/mozilla/nixpkgs-mozilla?ref=master&rev=d46240e8755d91bc36c0c38621af72bf5c489e13"
+        },
+        "nixpkgs": {
+            "inputs": {},
+            "narHash": "sha256-ZzR2l1dovxeZ555KXxz7SAXrC72BfaR4BeqvJzRdmwQ=",
+            "originalUrl": "nixpkgs/release-19.09",
+            "url": "github:edolstra/nixpkgs/d37927a77e70a2b3408ceaa2e763b6df1f4d941a"
+        }
+    },
+    "version": 3
+}
