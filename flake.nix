@@ -50,7 +50,8 @@
                 lockFile = ./Cargo.lock;
                 inherit pkgs;
               }).cargoHome
-            ] ++ lib.optional (system == "x86_64-darwin") [ darwin.apple_sdk.frameworks.AppKit ];
+            ] ++ lib.optional (system == "x86_64-darwin") [ darwin.apple_sdk.frameworks.AppKit ]
+            lib.optional (system == "x86_64-linux") [ xorg.libX11 xorg.libXcursor libGL ];
 
             buildPhase = ''
               cargo build --frozen --offline
